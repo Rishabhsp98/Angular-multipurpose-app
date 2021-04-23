@@ -1,0 +1,16 @@
+<p>weather works!</p>
+<div class="form-group">
+    <label for="location">Enter text location</label>
+    <input  type="text" class="form-control" id="location" name="location" [(ngModel)]="location"  />
+    <button (click)="onSubmit()">Submit</button>
+
+  </div>
+  <p>Weather Data</p>
+
+  Temperature for: {{weatherData?.name}} is {{weatherData?.main.temp}}
+
+  Coordinate for: {{weatherData?.name}} is {{weatherData?.coord.lon + weatherData?.coord.lat}}
+  <pre>
+  {{weatherData | json}}
+  </pre>
+  

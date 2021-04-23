@@ -1,0 +1,93 @@
+[
+    { 
+        "id": 1,
+        "name": "Rishabh sharma",
+        "username": "Rishabh",
+        "email": "rishabhsp98@gmail.com",
+        "address": {
+            "street" : "04",
+            "House No.": "310",
+            "Zone": "central",
+            "Zipcode": "110007",
+            "geo":{
+                "lat": "-37.87587",
+                "lng":"81.99493"
+            }
+        },
+        "phone" : "9555334905",
+        "website" : "http://rishabhsp98.github.io",
+        "company":{
+            "name" : "DXC",
+            "catchphrase" : "MVC architecture",
+            "bs": "harness real-time project"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Uday",
+        "username": "uday123",
+        "email": "uday@aol.com",
+        "address": {
+          "street": "Gandhi Street",
+          "suite": "Flat100",
+          "city": "Delhi",
+          "zipcode": "500021",
+          "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+          }
+        },
+        "phone": "703123456",
+        "website": "uday.net",
+        "company": {
+          "name": "DXC",
+          "catchPhrase": "Proa"
+        }
+    },
+    {
+        "id": 3,
+        "name": "sagar",
+        "username": "sagar123",
+        "email": "sagar@gmail.com",
+        "address": {
+          "street": "Street Extension",
+          "suite": "Suite 100",
+          "city": "bangalore",
+          "zipcode": "500157",
+          "geo": {
+            "lat": "-68.6102",
+            "lng": "-47.0653"
+          }
+        },
+        "phone": "6366118287",
+        "website": "sagar.info",
+        "company": {
+          "name": "sagar info",
+          "catchPhrase": " bifurcated interface",
+          "bs": "scalable applications"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Aishwarya",
+        "username": "Aish",
+        "email": "aish@india.org",
+        "address": {
+          "street": "Hyd street",
+          "suite": "A692",
+          "city": "Secunderabad",
+          "zipcode": "500034",
+          "geo": {
+            "lat": "29.4572",
+            "lng": "-164.2990"
+          }
+        },
+        "phone": "8796547652",
+        "website": "aish.biz",
+        "company": {
+          "name": "Dell",
+          "catchPhrase": " zero tole"
+        }
+      }
+  
+]

@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let user of users">
+    {{ user.name }}
+    <span *ngIf="user.id == 3"> {{ user.email }}</span>
+  </li>
+</ul>
+
+<p>users works!</p>
